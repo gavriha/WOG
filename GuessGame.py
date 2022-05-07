@@ -12,7 +12,7 @@ def play(diff):
             print (f'SUCCESS  in {i+1}  tries')
             return True
         else:
-            print (f'WRONG you have {9-i} tries left')
+            print (f'WRONG! you have {9-i} tries left')
         i=i+1
     return False
 
